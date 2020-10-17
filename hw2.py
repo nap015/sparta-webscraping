@@ -44,7 +44,7 @@ from email import encoders
 
 
 # 보내는 사람 정보
-me = "skdud712@gmail.com"
+me = "@gmail.com"
 my_password = ""
 
 # 로그인하기
@@ -52,7 +52,7 @@ s = smtplib.SMTP_SSL('smtp.gmail.com')
 s.login(me, my_password)
 
 # 받는 사람 정보
-you = "skdud712@gmail.com"
+you = "@gmail.com"
 
 # 메일 기본 정보 설정
 msg = MIMEMultipart('alternative')
